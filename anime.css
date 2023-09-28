@@ -21,71 +21,78 @@ font-weight: bold;
     align-items: center;
     background-color:black;
     padding: 0 70px;
-color: white;
+    color: white;
     font-family: 'Arsenal', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 .logo-container{
-    flex: 1;
+    flex: 2;
    
-    font-size: 28px;
+    font-size: 30px;
 
 }
 .logo{
-    margin-left: 12px;
+  margin-left: 12px;
      
     
     
 }
 .profile-text{
+  font-weight: bold;
+  color: #96BF98;
+  margin-right: 5px;
+  font-family: 'Arsenal', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Arsenal', sans-serif;
 
-    font-size: small;
-    font-weight: bold;
-   
- }
+}
+.profile-container{
+
+display: flex;
+    
+}
 .menu-container{
-    flex: 6;
+  flex: 6;
 }
 .menu-list{
-  display: flex;
-  list-style: none;
+display: flex;
+list-style: none;
 }
 .profile-container{
 flex: 2;
 display: flex;
-
-
-
-    
+  
 }
 
 
 .profile-picture{
     flex: 2;
-    width: 35px;
-    height: 35px;
+    width: 43px;
+    height:43px;
     border-radius: 50%;
     object-fit:cover;
-    margin-top: 3px;
+    margin-right: 15px;
     
-   
-    
-   
-    
+}
+.fa-sort-down{
+padding-right: 40px;
+color: #96BF98;
 }
 
 
 .toggle{
-    width: 60px;
-    height: 27px;
+    width: 70px;
+    height: 30px;
     border-radius: 30px;
     background-color: aquamarine;
-    margin-left: 10px;
+
     align-items: center;
     display: flex;
     justify-content: space-around;
+    margin-right: 2%;
+   
    
  
 }
@@ -101,14 +108,16 @@ display: flex;
 
 }
 .toggle-ball{
-    width: 20px;
-    height: 20px;
-    border-radius: 30px;
+   margin-top: 3px;
+    width: 25px;
+    height: 25px;
+    border-radius: 35px;
     background-color: #0E4657;
     position: relative;
-    right: 20px;
+    right: 35px;
     cursor: pointer;
-    transition:1s ease all;
+    transition:.2s ease all;
+   
 }
 .sidebar{
     width: 50px;
@@ -162,6 +171,7 @@ align-items: center;
 .movie-list-title{
     margin-left:20px ;
     text-align: center;
+    
 }
 .movie-list-container{
 padding: 0 7px;
@@ -173,7 +183,7 @@ margin-top: 0%;
     align-items: center;
     height: 300px;
     transform: translateX(0);
-    transition: all 1s ease-in-out;
+    transition: all .1s ease-in-out;
   }
   .movie-list-item {
     margin-right: 30px;
@@ -192,11 +202,11 @@ margin-top: 0%;
   .movie-list-item:hover .movie-list-item-img {
     transform: scale(1.2);
     margin: 0 30px;
-    opacity: 0.5;
+    opacity: .5;
   }
   
 .movie-list-item-img {
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
     width: 270px;
     height: 200px;
     object-fit: cover;
@@ -205,26 +215,38 @@ margin-top: 0%;
    
   }
   .movie-list-item-title {
-    background-color: #333;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     position: absolute;
-    top: 7%;
-    left: 30px;
+    color:#ACCF54; 
+    left: 15px;
     opacity: 0;
-    transition: 1s all ease-in-out;
+    font-family: 'Arsenal', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s all ease-in-out;
+  }
+
+  .movie-list-item-title.active{
+    color: #FE5A17;
   }
   .movie-list-item-desc {
-    background-color: #333;
+    font-family: 'Arsenal', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 10px;
     font-size: 14px;
     position: absolute;
-    top: 19%;
+    top: 25%;
     left: 10px;
     width: 230px;
     opacity: 0;
-    transition: 1s all ease-in-out;
+    transition: .3s all ease-in-out;
+  }
+  .movie-list-item-desc.active{
+color: black;
   }
   .movie-list-item-button {
     padding: 10px;
@@ -238,7 +260,7 @@ margin-top: 0%;
     bottom: 5px;
     left: 50px;
     opacity: 0;
-    transition: 1s all ease-in-out;
+    transition: .3s all ease-in-out;
   }
   .arrow {
     font-size: 120px;
@@ -272,18 +294,18 @@ margin-top: 0%;
   }
   
   .toggle.active{
-      background-color: black;
+    background-color: black;
   }
   
   .toggle-ball.active{
       background-color: white;
-      transform: translateX(-20px);
+      transform: translate(-32px);
   }
   .profile-text.active{
 
-    font-size: large;
-    color: brown;
-   font-weight: bold;
+    
+    color: black;
+   
    
  }
  .toggle-col.active{

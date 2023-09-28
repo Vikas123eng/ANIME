@@ -22,14 +22,18 @@ arrows.forEach((arrow, i) => {
 
 //TOGGLE
 
+const toggle = document.querySelector(".toggle");
 const ball = document.querySelector(".toggle-ball");
 const items = document.querySelectorAll(
-  ".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle,.toggle-col,.side,.profile-text"
+  ".container,.movie-list-title,.navbar-container,.sidebar,.movie-list-item-title,.toggle,.movie-list-item-desc,.left-menu-icon,.toggle-col,.side,.profile-text"
 );
 
-ball.addEventListener("click", () => {
+function toggleItems() {
   items.forEach((item) => {
     item.classList.toggle("active");
   });
   ball.classList.toggle("active");
-});
+}
+
+toggle.addEventListener("click", toggleItems);
+ball.addEventListener("click", toggleItems);
