@@ -9,5 +9,6 @@ My name is Vikas Ravidas. I am a second year undergraduate student of the Depart
 7. Personal Email : vikasravidas789@gmai.com
 8. Institute Email : vikasrd@kgpian.iitkgp.ac.in
 9. Anilist Username:GUT_SWORDSMAN
+10. Discord_username:vikasravidas_12765
     
 
