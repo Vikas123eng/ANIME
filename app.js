@@ -25,7 +25,7 @@ arrows.forEach((arrow, i) => {
 const toggle = document.querySelector(".toggle");
 const ball = document.querySelector(".toggle-ball");
 const items = document.querySelectorAll(
-  ".container,.movie-list-title,.navbar-container,.sidebar,.movie-list-item-title,.toggle,.movie-list-item-desc,.left-menu-icon,.toggle-col,.side,.profile-text"
+  ".container,.movie-list-title, .arrow,.navbar-container,.sidebar,.movie-list-item-title,.toggle,.movie-list-item-desc,.left-menu-icon,.toggle-col,.side,.profile-text"
 );
 
 function toggleItems() {
