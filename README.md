@@ -2,7 +2,7 @@
 1. Name:Vikas Ravidas.
 2. Roll No.:22MA10070
 3. Discord_username:vikasravidas_12765
-4. Anilist Username:GUT_SWORDSMAN
+4. MyAnimeList Username:GUT_SWORDSMAN
 5. My name is Vikas Ravidas. I am a second year undergraduate student of the Department of Mathematics enrolled in its Bachelor of Science Course of Mathematics and Computing. I am a Boarder of Patel Hall of Residence. I am from Jamshedpur, Jharkhand.
 6. phone no. : 9304690362
 7. Personal Email : vikasravidas789@gmai.com
