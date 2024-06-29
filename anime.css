@@ -1,56 +1,57 @@
 *{
-    margin:0;
+  margin:0;
 }
 .body{
-    font-family: 'Arsenal', sans-serif;
+  font-family: 'Arsenal', sans-serif;
 font-family: 'Roboto', sans-serif;
 background-color: black;
 }
 .navbar{
-    width: 100%;
-    height: 67px;
-    background-color: black;
+  width: 100%;
+  height: 67px;
+  background-color: black;
 }
 .menu-list-item.active{
 font-weight: bold;
 }
 
 .navbar-container{
-    display: flex;
-   
-    align-items: center;
-    background-color:black;
-    padding: 0 70px;
-    color: white;
-    font-family: 'Arsenal', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+  display: flex;
+ 
+  align-items: center;
+  background-color:black;
+  padding: 0 70px;
+  color: white;
+  font-family: 'Arsenal', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  
 }
 .logo-container{
-    flex: 2;
-   
-    font-size: 30px;
+  flex: 2;
+ 
+  font-size: 1.5vmax;
 
 }
 .logo{
-  margin-left: 12px;
-     
-    
-    
+margin-left: 12px;
+   
+  
+  
 }
 .profile-text{
-  font-weight: bold;
-  color: #96BF98;
-  margin-right: 6px;
-  font-family: 'Arsenal', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Arsenal', sans-serif;
+font-weight: bold;
+color: #96BF98;
+padding-right: 10px;
+font-family: 'Arsenal', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Arsenal', sans-serif;
 
 }
 
 .menu-container{
-  flex: 6;
+flex: 6;
+font-size:1.1vw;
 }
 .menu-list{
 display: flex;
@@ -59,18 +60,18 @@ list-style: none;
 .profile-container{
 flex: 1;
 display: flex;
-  
+
 }
 
 
 .profile-picture{
-    flex: 2;
-    width: 43px;
-    height:43px;
-    border-radius: 50%;
-    object-fit:cover;
-    margin-right: 15px;
-    
+  flex: 2;
+  width: 43px;
+  height:43px;
+  border-radius: 50%;
+  object-fit:cover;
+  margin-right: 15px;
+  
 }
 .fa-sort-down{
 padding-right: 60px;
@@ -79,94 +80,95 @@ color: #96BF98;
 
 
 .toggle{
-    width: 70px;
-    height: 30px;
-    border-radius: 30px;
-    background-color: aquamarine;
-
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-   
-   
-   
+  width: 45px;
+  height: 27px;
+  border-radius: 30px;
+  background-color: aquamarine;
+align-self: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
  
+ 
+ 
+
 }
 .toggle-col{
-    color: black;
-    size-adjust:initial;
+  color: black;
+  size-adjust:initial;
 }
 .left-menu-icon{
-    color:#96BF98;
-    font-size: 30px;
-   
-    
+  color:#96BF98;
+  font-size: 30px;
+ 
+  
 
 }
 .toggle-ball{
-   margin-top: 3px;
-    width: 25px;
-    height: 25px;
-    border-radius: 35px;
-    background-color: #0E4657;
-    position: relative;
-    right: 33px;
-    cursor: pointer;
-    transition:.2s ease all;
-   
+ align-self: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 35px;
+  background-color: #0E4657;
+  position: relative;
+  right: 9%;
+  cursor: pointer;
+  transition:.2s ease all;
+ 
 }
 .sidebar{
-    width: 50px;
-    height: 100%;
-    background-color:black;
+  width: 50px;
+  height: 100%;
+  background-color:black;
 
-    position: fixed ;
-    top :0;
-    display: flex;
-    flex-direction: column;
-    padding-top: 80px;
+  position: fixed ;
+  top :0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
 align-items: center;
-    justify-content: space-between;
+  justify-content: space-between;
 }
 .container{
-    background-color: black;
-    min-height:calc(100vh - 50px);
-    color:white;
+  background-color: black;
+  min-height:calc(100vh - 50px);
+  color:white;
 }
 .content-container{
-    margin-left: 50px;
+  margin-left: 50px;
 }
 .featured-content{
-    height:50vh;
-    padding: 50px;
+  height:50vh;
+  padding: 50px;
 }
 .featured-title{
-    width:280px;
+  width:280px;
 }
 .featured-title1{
-    width:500px;
+  width:500px;
 }
 
 .featured-button{
-    background-color: #A5CC4C;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    margin-top: 0px;
-    font-weight: bold ;
+  background-color: #A5CC4C;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-top: 0px;
+  font-weight: bold ;
 }
 
 .featured-desc{
-    width:500px;
-    color: lightgray;
-    margin:30px 0 ;
+  width:70vmin;
+  color: lightgray;
+  margin:30px 0 ;
 }
 .movie-list-title{
-    margin-left:20px ;
-    text-align: center;
-    
+  margin-left:20px;
+  text-align: center;
+  font-size: 4vmin;
+  
 }
 .movie-list-container{
 padding: 0 7px;
@@ -174,149 +176,186 @@ margin-top: 0%;
 
 }
 .movie-list {
-    display: flex;
-    align-items: center;
-    height: 300px;
-    transform: translateX(0);
-    transition: all .1s ease-in-out;
-  }
-  .movie-list-item {
-    margin-right: 30px;
-    position: relative;
-  }
-  .movie-list-wrapper {
-    position: relative;
-    overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  transform: translateX(0);
+  transition: all .1s ease-in-out;
+}
+.movie-list-item {
+  margin-right: 30px;
+  position: relative;
+}
+.movie-list-wrapper {
+  position: relative;
+  overflow: hidden;
 
-  }
-  .movie-list-item:hover .movie-list-item-title,
+}
+.movie-list-item:hover .movie-list-item-title,
 .movie-list-item:hover .movie-list-item-desc,
 .movie-list-item:hover .movie-list-item-button {
-  opacity: 1;
+opacity: 1;
 }
-  .movie-list-item:hover .movie-list-item-img {
-    transform: scale(1.2);
-    margin: 0 30px;
-    opacity: .5;
-  }
-  
+.movie-list-item:hover .movie-list-item-img {
+  transform: scale(1.2);
+  margin: 0 30px;
+  opacity: .5;
+}
+
 .movie-list-item-img {
-    transition: all .3s ease-in-out;
-    width: 270px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 20px;
+  transition: all .3s ease-in-out;
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
 
-   
-  }
-  .movie-list-item-title {
-    padding: 0 10px;
-    font-size: 25px;
-    font-weight: bold;
-    position: absolute;
-    color:#ACCF54; 
-    left: 15px;
-    opacity: 0;
-    font-family: 'Arsenal', sans-serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    transition: .3s all ease-in-out;
-  }
+ 
+}
+.movie-list-item-title {
+  padding: 0 10px;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  color:#ACCF54; 
+  left: 15px;
+  opacity: 0;
+  font-family: 'Arsenal', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  transition: .3s all ease-in-out;
+}
 
-  .movie-list-item-title.active{
-    color: #FE5A17;
-  }
-  .movie-list-item-desc {
-    font-family: 'Arsenal', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px;
-    font-size: 14px;
-    position: absolute;
-    top: 25%;
-    left: 10px;
-    width: 230px;
-    opacity: 0;
-    transition: .3s all ease-in-out;
-  }
-  .movie-list-item-desc.active{
+.movie-list-item-title.active{
+  color: #FE5A17;
+}
+.movie-list-item-desc {
+  font-family: 'Arsenal', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  font-size: 14px;
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  width: 230px;
+  opacity: 0;
+  transition: .3s all ease-in-out;
+}
+.movie-list-item-desc.active{
 color: black;
-  }
-  .movie-list-item-button {
-    padding: 10px;
-    background-color: #4dbf00;
-    color: white;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    bottom: 5px;
-    left: 50px;
-    opacity: 0;
-    transition: .3s all ease-in-out;
-  }
-  .arrow {
-    font-size: 120px;
-    position:absolute;
-     top: 90px;
-     right: 0;
-   color: #C7D5EC;
-    cursor: pointer;
-      
-  }
-  .arrow.active{
-   color: #29B2AE;
-  }
-  .container.active{
-    background-color: white;
-  }
-  
-  .movie-list-title.active{
-    color: black;
-  }
-  
-  .navbar-container.active {
-    background-color: white;
-  
-    color: black;
-  }
-  
-  .sidebar.active{
-      background-color: white;
-  }
-  
-  .left-menu-icon.active{
-      color: black;
-  }
-  
-  .toggle.active{
-    background-color: black;
-  }
-  
-  .toggle-ball.active{
-      background-color: white;
-      transform: translate(-32px);
-  }
-  .profile-text.active{
-
+}
+.movie-list-item-button {
+  padding: 10px;
+  background-color: #4dbf00;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  left: 50px;
+  opacity: 0;
+  transition: .3s all ease-in-out;
+}
+.arrow {
+  font-size: 120px;
+  position:absolute;
+   top: 90px;
+   right: 0;
+ color: #C7D5EC;
+  cursor: pointer;
     
+}
+.arrow.active{
+ color: #29B2AE;
+}
+.container.active{
+  background-color: white;
+}
+
+.movie-list-title.active{
+  color: black;
+}
+
+.navbar-container.active {
+  background-color: white;
+
+  color: black;
+}
+
+.sidebar.active{
+    background-color: white;
+}
+
+.left-menu-icon.active{
     color: black;
-   
-   
- }
- .toggle-col.active{
-    color: goldenrod;
-    size-adjust:initial;
+}
+
+.toggle.active{
+  background-color: black;
+}
+
+.toggle-ball.active{
+    background-color: white;
+    transform: translate(-22px);
+}
+.profile-text.active{
+
+  
+  color: black;
+ 
+ 
+}
+.toggle-col.active{
+  color: goldenrod;
+  size-adjust:initial;
 }
 .side.active{
 color: #cb8b15;
 size: large;
 
 }
-@media only screen and (max-width: 1400px){
-    .menu-container{
-        display: none;
+@media only screen and (max-width: 824px){
+  .menu-container{
+      display: none;
+  }
+  .featured-content{
+    height:40vw;
+    
+  }
+  .featured-title{
+    width:30vmin;
+  }
+  .featured-title1{
+    width:30vmin;
+  }
+  .navbar{
+    
+    height: 50px;
+  
+  }
+  .profile-picture{
+    
+    width: 35px;
+    height:35px;
+    border-radius: 50%;
+   
+    
+    
+  }
+  .logo{
+    margin-left: 0px;
+       
+      
+      
     }
+    .logo-container{
+    
+     
+      font-size: 3vmin;
+    
+    }
+
 }
